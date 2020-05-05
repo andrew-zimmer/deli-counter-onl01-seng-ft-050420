@@ -1,3 +1,8 @@
 def line(array)
-  array.length > 0 ? array.each {|spot| "#{array.index(spot) +1}. #{spot}"} : "The line is currently empty."
+  if array.length > 0 
+    array.each do |name|
+      puts "#{array.index(name) + 1}. #{name}"
+    end
+  else 
+    puts "The line is currently empty."
 end
