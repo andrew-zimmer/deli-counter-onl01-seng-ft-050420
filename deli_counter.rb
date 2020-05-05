@@ -5,4 +5,5 @@ def line(array)
     end
   else 
     puts "The line is currently empty."
+  end
 end
