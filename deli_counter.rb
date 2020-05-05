@@ -20,3 +20,5 @@ def now_serving(array)
     puts "Now serving #{array[0]}."
   else 
     puts "There is nobody waiting to be served!"
+  end 
+end 
